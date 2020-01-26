@@ -1,0 +1,6 @@
+__pycache__/
+flask_section/
+.idea/
+test_db
+*.pyc
+test.py
