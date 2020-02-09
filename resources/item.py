@@ -5,7 +5,7 @@ from models.item import ItemModel
 
 class Item(Resource):
     parser = reqparse.RequestParser()
-    parser.add_argument("price", required=True, type=float)
+    parser.add_argument("price", required=True, type=float, help="Price of the item")
     parser.add_argument("store_id", required=True, type=int,
                         help="Every item must have store id")
 
