@@ -1,6 +1,6 @@
 # Training project for Flaks&REST API
 
-## Intallation
+## Intallation of the project
 
 ```
 pip install requirements.txt
